@@ -1,4 +1,4 @@
-🍦 Ice Cream Sales Prediction using Machine Learning
+#🍦 Ice Cream Sales Prediction using Machine Learning
 
 ### 📌 Project Overview
 
