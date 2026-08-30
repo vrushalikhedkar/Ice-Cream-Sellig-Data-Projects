@@ -37,5 +37,18 @@ y → Ice Cream Sales (units)
 Linear Regression was first used to model the relationship between temperature and ice cream sales.
 
 **Results**
+
 Mean Squared Error (MSE): ```107.5207```<br />
 R² Score: ```-0.0256```<br />
+
+The negative R² score shows that a simple straight-line model does not fit this dataset well.
+
+**Example Prediction**
+
+For a temperature of 30°C, Linear Regression predicted approximately: ```3.42 units```
+
+## 📉 Polynomial Regression
+
+Because the relationship between temperature and sales is non-linear, Polynomial Regression was applied.
+
+PolynomialFeatures(degree=2)
