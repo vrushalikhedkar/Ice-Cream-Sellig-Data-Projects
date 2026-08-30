@@ -83,3 +83,14 @@ The project includes:
 - Polynomial Regression prediction curve
 
 These visualizations help show why Polynomial Regression fits the dataset better.
+
+
+## ✅ Conclusion
+
+The project shows that the relationship between temperature and ice cream sales is better captured by a non-linear model.
+
+
+Linear Regression produced a negative R² score on the test set, while Polynomial Regression achieved an R² score of 0.8752 with a substantially lower MSE.
+
+
+Therefore, **Polynomial Regression was selected as the better model for this dataset.**
