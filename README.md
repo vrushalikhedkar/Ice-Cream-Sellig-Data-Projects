@@ -32,30 +32,10 @@ y → Ice Cream Sales (units)
 - Scikit-learn
 - Jupyter Notebook
 
-## 🔄 Project Workflow
+## 📈 Linear Regression
 
-Load Dataset<br />
-      ↓<br />
-Data Understanding<br />
-      ↓<br />
-Select X and y<br />
-      ↓<br />
-Data Visualization<br />
-      ↓<br />
-Train-Test Split<br />
-      ↓<br />
-Linear Regression<br />
-      ↓<br />
-Model Evaluation<br />
-      ↓<br />
-Polynomial Regression<br />
-      ↓<br />
-Model Evaluation<br />
-      ↓<br />
-Model Comparison<br />
-      ↓<br />
-Best Model Selection<br />
+Linear Regression was first used to model the relationship between temperature and ice cream sales.
 
-## 🔀 Train-Test Split
-
-
+**Results**
+Mean Squared Error (MSE): ```107.5207```<br />
+R² Score: ```-0.0256```<br />
