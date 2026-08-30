@@ -94,3 +94,13 @@ Linear Regression produced a negative R² score on the test set, while Polynomia
 
 
 Therefore, **Polynomial Regression was selected as the better model for this dataset.**
+
+
+## 🚀 Future Improvements
+
+- Test different polynomial degrees
+- Compare additional regression algorithms
+- Perform cross-validation
+- Add hyperparameter tuning
+- Build a simple Streamlit web application
+- Deploy the model online
