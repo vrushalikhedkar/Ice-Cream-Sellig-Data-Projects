@@ -1,6 +1,6 @@
 # 🍦 Ice Cream Sales Prediction using Machine Learning
 
-## 📌 Project Overview ##
+### 📌 Project Overview
 
 This project predicts Ice Cream Sales based on Temperature (°C) using Machine Learning regression techniques.
 
