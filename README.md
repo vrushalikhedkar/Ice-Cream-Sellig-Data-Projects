@@ -10,6 +10,8 @@ The project compares:
 
 The goal is to find which model fits the temperature-sales relationship better.
 
+<hr>
+
 ### 📊 Dataset
 File: ```Ice_cream_selling_data.csv```
 - Total Records: 49
