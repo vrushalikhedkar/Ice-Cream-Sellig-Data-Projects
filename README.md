@@ -10,6 +10,7 @@ The project compares:
 
 The goal is to find which model fits the temperature-sales relationship better.
 
+#
 <hr>
 
 ### 📊 Dataset
