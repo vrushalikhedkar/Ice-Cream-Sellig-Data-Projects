@@ -11,7 +11,6 @@ The project compares:
 The goal is to find which model fits the temperature-sales relationship better.
 
 #
-<hr>
 
 ### 📊 Dataset
 File: ```Ice_cream_selling_data.csv```
@@ -25,6 +24,8 @@ File: ```Ice_cream_selling_data.csv```
 - X → Temperature (°C)<br />
 - y → Ice Cream Sales (units)
 
+#
+
 ### 🛠️ Technologies Used
 
 - Python
@@ -34,6 +35,8 @@ File: ```Ice_cream_selling_data.csv```
 - Seaborn
 - Scikit-learn
 - Jupyter Notebook
+
+#
 
 ### 📈 Linear Regression
 
@@ -50,6 +53,8 @@ The negative R² score shows that a simple straight-line model does not fit this
 
 - For a temperature of 30°C, Linear Regression predicted approximately: ```3.42 units```
 
+#
+
 ### 📉 Polynomial Regression
 
 Because the relationship between temperature and sales is non-linear, Polynomial Regression was applied.
@@ -64,6 +69,8 @@ PolynomialFeatures(degree=2)
 
 Polynomial Regression performs much better than Linear Regression on the test data.
 
+#
+
 ### 🏆 Model Comparison
 
 | Model | Test MSE | Test R² Score |
@@ -71,11 +78,15 @@ Polynomial Regression performs much better than Linear Regression on the test da
 | Linear Regression | 107.5207 | -0.0256 |
 | **Polynomial Regression** | **13.0868** | **0.8752** |
 
+#
+
 ### Best Model
 
 **Polynomial Regression (Degree = 2) is the best-performing model in this project.**
 
 It achieved a test R² score of approximately 87.52% and a much lower prediction error compared with Linear Regression.
+
+#
 
 ### 📊 Visualization
 
@@ -87,6 +98,7 @@ The project includes:
 
 These visualizations help show why Polynomial Regression fits the dataset better.
 
+#
 
 ### ✅ Conclusion
 
@@ -98,6 +110,7 @@ Linear Regression produced a negative R² score on the test set, while Polynomia
 
 Therefore, **Polynomial Regression was selected as the better model for this dataset.**
 
+#
 
 ### 🚀 Future Improvements
 
