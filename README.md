@@ -19,5 +19,5 @@ File: ```Ice_cream_selling_data.csv```
 
 **Feature and Target**
 
-X → Temperature (°C)
+X → Temperature (°C)<br />
 y → Ice Cream Sales (units)
