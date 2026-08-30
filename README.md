@@ -34,27 +34,27 @@ y → Ice Cream Sales (units)
 
 ## 🔄 Project Workflow
 
-Load Dataset
-      ↓
-Data Understanding
-      ↓
-Select X and y
-      ↓
-Data Visualization
-      ↓
-Train-Test Split
-      ↓
-Linear Regression
-      ↓
-Model Evaluation
-      ↓
-Polynomial Regression
-      ↓
-Model Evaluation
-      ↓
-Model Comparison
-      ↓
-Best Model Selection
+Load Dataset<br />
+      ↓<br />
+Data Understanding<br />
+      ↓<br />
+Select X and y<br />
+      ↓<br />
+Data Visualization<br />
+      ↓<br />
+Train-Test Split<br />
+      ↓<br />
+Linear Regression<br />
+      ↓<br />
+Model Evaluation<br />
+      ↓<br />
+Polynomial Regression<br />
+      ↓<br />
+Model Evaluation<br />
+      ↓<br />
+Model Comparison<br />
+      ↓<br />
+Best Model Selection<br />
 
 ## 🔀 Train-Test Split
 
