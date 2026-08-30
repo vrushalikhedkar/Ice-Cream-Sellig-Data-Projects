@@ -51,7 +51,7 @@ The negative R² score shows that a simple straight-line model does not fit this
 
 **Example Prediction**
 
-- For a temperature of 30°C, Linear Regression predicted approximately: ```3.42 units```
+For a temperature of 30°C, Linear Regression predicted approximately: ```3.42 units```
 
 #
 
