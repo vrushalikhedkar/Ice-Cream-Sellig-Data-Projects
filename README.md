@@ -19,8 +19,8 @@ File: ```Ice_cream_selling_data.csv```
 
 **Feature and Target**
 
-X → Temperature (°C)<br />
-y → Ice Cream Sales (units)
+- X → Temperature (°C)<br />
+- y → Ice Cream Sales (units)
 
 ## 🛠️ Technologies Used
 
@@ -38,17 +38,48 @@ Linear Regression was first used to model the relationship between temperature a
 
 **Results**
 
-Mean Squared Error (MSE): ```107.5207```<br />
-R² Score: ```-0.0256```<br />
+- Mean Squared Error (MSE): ```107.5207```<br />
+- R² Score: ```-0.0256```<br />
 
 The negative R² score shows that a simple straight-line model does not fit this dataset well.
 
 **Example Prediction**
 
-For a temperature of 30°C, Linear Regression predicted approximately: ```3.42 units```
+- For a temperature of 30°C, Linear Regression predicted approximately: ```3.42 units```
 
 ## 📉 Polynomial Regression
 
 Because the relationship between temperature and sales is non-linear, Polynomial Regression was applied.
 
 PolynomialFeatures(degree=2)
+
+**Results**
+
+- Training R² Score: ```0.9385```
+- Test Mean Squared Error (MSE): ```13.0868```
+- Test R² Score: ```0.8752```
+
+Polynomial Regression performs much better than Linear Regression on the test data.
+
+## 🏆 Model Comparison
+
+| Model | Test MSE | Test R² Score |
+|---|---:|---:|
+| Linear Regression | 107.5207 | -0.0256 |
+| **Polynomial Regression** | **13.0868** | **0.8752** |
+
+## Best Model
+
+**Polynomial Regression (Degree = 2) is the best-performing model in this project.**
+
+It achieved a test R² score of approximately 87.52% and a much lower prediction error compared with Linear Regression.
+
+## 📊 Visualization
+
+The project includes:
+
+- Temperature vs Ice Cream Sales scatter plot
+- Linear Regression prediction line
+- Polynomial Regression prediction curve
+
+These visualizations help show why Polynomial Regression fits the dataset better.
