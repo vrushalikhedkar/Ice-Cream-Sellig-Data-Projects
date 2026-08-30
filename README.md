@@ -12,3 +12,12 @@ The goal is to find which model fits the temperature-sales relationship better.
 
 ## 📊 Dataset
 File: ```Ice_cream_selling_data.csv```
+- Total Records: 49
+- Total Features: 1
+- Input Feature: ```Temperature (°C)```
+- Target Variable: ```Ice Cream Sales (units)```
+
+**Feature and Target**
+
+X → Temperature (°C)
+y → Ice Cream Sales (units)
